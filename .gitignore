@@ -1,0 +1,14 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Node and Playwright output (used in Week 3)
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Secrets: never commit real credentials or tokens
+.env
+*.local.json
